@@ -1,6 +1,6 @@
-# Gjøre
+# Makeover
 
-Gjøre builds on top of the [Make](https://thethemefoundry.com/wordpress-themes/make/) theme to create an anti-pattern free creation experience primarily for using [LifterLMS](https://lifterlms.com/) to create online courses. It accomplishes the following:
+Makeover builds on top of the [Make](https://thethemefoundry.com/wordpress-themes/make/) theme to create an anti-pattern free creation experience primarily for using [LifterLMS](https://lifterlms.com/) to create online courses. It accomplishes the following:
 
 - Replaces custom freeware editor with the Gutengurg editor
 - It hides the annoying upselling in the backend
