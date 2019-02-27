@@ -1,0 +1,74 @@
+/*
+Theme Name: Gjøre
+Template: make
+*/
+
+/* Header */
+.site-title a {
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+/* Styling Gutenberg */
+.wp-block-cover, .wp-block-cover-image {
+    min-height: 300px !important;
+}
+.wp-block-cover .wp-block-cover-image-text, .wp-block-cover .wp-block-cover-text, .wp-block-cover h2, .wp-block-cover-image .wp-block-cover-image-text, .wp-block-cover-image .wp-block-cover-text, .wp-block-cover-image h2 {
+   font-size: 2.5em;
+}
+
+/* Fix theme gutenberg compatability */
+.entry-content > *:not(.wp-block-cover) {
+  max-width: 1000px !important;
+  margin: 0 auto;
+}
+
+/* LifterLMS Course/Lesson Page */
+.llms-instructor-info,
+.type-course .entry-meta,
+.type-lesson .entry-meta,
+.llms-meta-info,
+.wp-block-llms-course-progress {
+    display: none;
+}
+
+/* LifterLMS Course Loop */
+.llms-loop-item-content {
+  background: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  padding-bottom: 0;
+}
+.llms-loop-item-content:hover {
+  background: #ffffff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.llms-progress-bar {
+  background: transparent !important;
+  margin: -6px 0;
+}
+.llms-loop-item-footer {
+  display: none;
+}
+
+/* LifterLMS User Registration */
+.llms-notice,
+.llms-login,
+.llms-checkout-col > *{
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-bottom: 24px !important;
+    background: #ffffff;
+}
+.llms-form-heading {
+    padding: 10px 34px !important;
+}
+.llms-checkout-section-content {
+    padding: 12px 24px;
+}
+.llms-form-fields {
+    padding: 0 24px 24px;
+}
